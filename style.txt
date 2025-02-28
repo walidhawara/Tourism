@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300&family=Whisper&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    margin-top: 15px;
+    height: 60px;
+}
+.navbar-brand{
+    width: 25%;
+    height: 80%;
+    margin-top: 10px;
+    text-align: center;
+    line-height: .6;
+}
+.navbar-brand h2 {
+    font-family: 'Whisper', cursive;
+    font-weight: bold;
+    color: black;
+}
+.navbar-brand h2:hover{
+    color: rgb(164, 187, 237);
+}
+.navbar-brand p{
+   color: black;
+   font-weight:lighter ;
+}
+.collapse{
+    margin-left: 120px;
+    width: 70%;
+   justify-content: space-between;
+}
+.collapse ul{
+    background-color: whitesmoke;
+    box-shadow: 0 0 1px 0 rgba(24, 94, 224, 0.15), 0 6px 12px 0 rgba(24, 94, 224, 0.15);
+    padding: .5rem;
+    border-radius: 99px;
+}
+.nav-item{
+    direction: rtl;
+    margin-left: 10px;
+}
+.nav-item a{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+.nav-item a:hover{
+    background-color: aliceblue;
+    box-shadow:0 0 1px 0 rgba(8, 51, 130, 0.15), 0 6px 12px 0 rgba(24, 94, 224, 0.15) ;
+    padding: .4rem;
+    border-radius: 80px;
+    color: rgb(157, 204, 235);
+}
+.nav-item i a{
+ margin: 0px 5px;
+ font-size: 11px;
+}
+
+  .button {
+    padding: .5rem 1rem;
+    font-weight: 200;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: .5rem;
+    border-bottom: 2px solid blueviolet;
+    border-right: 2px solid blueviolet;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    transition-duration: 1s;
+    margin-left: 15px;
+    transition-property: border-top, 
+       border-left, 
+       border-bottom,
+       border-right,
+       box-shadow;
+   }
+   
+   .button:hover {
+    border-top: 2px solid blueviolet;
+    border-left: 2px solid blueviolet;
+    border-bottom: 2px solid rgb(238, 103, 238);
+    border-right: 2px solid rgb(238, 103, 238);
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px;
+   }
+
+ div .footer_body {
+    margin-top:100px;
+    background: #2a2e32;
+    height: 40vh;
+    
+
+  }
+  footer a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: all 0.3s;
+    font-size: 18px;
+  }
+  
+  a:hover, a:focus {
+    text-decoration: none;
+    color: rgb(147, 147, 209);
+  }
+  .list2{
+    list-style-type: none;
+    display: flex;
+  }
+  .list2 li{
+    margin-left: 15px;
+  }
+footer .h1{
+    color: rgb(232, 161, 237);
+    font-weight: bolder;
+    font-family: 'Whisper', cursive;
+}
+footer p{
+    font-size: 16px;
+    color: rgb(100, 120, 113);
+}
+.link_text{
+    color: rgb(100, 79, 102);
+}
+
+
+
